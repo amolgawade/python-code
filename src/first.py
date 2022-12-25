@@ -34,14 +34,14 @@ Dia2="बिना शांति के, सभी सपने टूट ज�
 A3="Abddul kalam "
 Dia3="You have to dream before your dreams can come true"
 add=A1+'\n\t'+Dia1+'\n'+A2+'\n\t'+Dia2+'\n'+A3+'\n\t'+Dia3
-print("some famous dialouges:",add.title())
+print("some famous dialouges:", add.title())
 
 
 print(10+20-(5/10*200/10)+500)
 
 print(0.2*0.2)
-age=23
-message="Happy " + str(age)+'rd birthaday'
+age = 23
+message = "Happy " + str(age)+'rd birthday'
 print(message)
 
 print(5+3)
