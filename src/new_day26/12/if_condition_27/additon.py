@@ -1,4 +1,9 @@
 import calulator_fun
 
-i = calulator_fun.add(100, 200)
-print("ans is"+i)
+a = int(input("Enter the first number:"))
+b = int(input("Enter the second number:"))
+
+res = calulator_fun.add(a, b)
+print("here is the ans: " + str(res))
+
+
