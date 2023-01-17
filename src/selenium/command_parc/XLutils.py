@@ -5,7 +5,7 @@ from openpyxl.styles import PatternFill
 def getrowsCount(file,sheetname):
     workbook = openpyxl.load_workbook(file)
     sheet = workbook[sheetname]
-    return sheet.max_rows
+    return sheet.max_row
 
 def getcolumnCount(file,sheetname):
     workbook = openpyxl.load_workbook(file)
